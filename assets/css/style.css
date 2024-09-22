@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Header */
+
+header{
+    background-color: #003b95;
+    padding-top: 23px;
+}
+.booking svg{
+    width: 144px;
+}
+.Details{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.jod{
+    color: #FFFFFF;
+    padding:8px 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.img-header img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.svg-header svg {
+    width: 24px;
+    height: 24px;
+    fill: #FFFFFF;
+}
+.property{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.auth{
+    display: flex;
+    gap: 10px;
+}
+.register , .log-in{
+background-color: #FFFFFF;
+padding: 8px 16px;
+border-radius: 3px;
+}
+.register a , .log-in a{
+    color: #006ce4;
+}
+.nav-bar{
+    margin-top: 20px;
+}
+.nav-bar ul{
+    display: flex;
+    column-gap: 30px;
+}
+.nav-bar svg{
+    fill: #FFFFFF;
+    width: 20px;
+    height: 20px;
+}
+.nav-bar a{
+    color: #FFFFFF;
+}
+.nav-bar li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.active{
+    border: solid 1px #fff;
+    border-radius: 20px;
+    height: 42px;
+    background: #ffffff5c;
+    width: 91px;
+}
+
+/* Hero */
+
+.hero{
+    background-color: #003b95;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color: #FFFFFF;
+}
+.big-title{
+    font-size: 2.4em;
+    font-weight: bolder;
+}
+.small-title{
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.hero-button button{
+    border: none;
+    background-color: #006ce4;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.title-under-image{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.title-under-image p{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.title-under-image svg{
+    width: 91px;
+    height: 24px;
+}
+.hero-img img{
+    width: 300px;
+    height: 300px;
+}
+
+/* serach box */
+
+.serach-box{
+    position: absolute;
+    max-width: 1100px;
+    width: calc(100% - 10px);
+    left: 50%;
+    transform: translate(-50%, -54px);
+    background-color: #fff;
+    z-index: 3;
+    margin-top: 24px;
+    border-radius: 10px;
+    border: 3px #ffb700 solid;
+
+}
+.persons , .date , .place , .search{ 
+display: flex;
+align-items: center;
+gap: 10px;
+
+}
+.persons , .date , .place{
+background-color: #fff;
+border-radius: 10px;
+padding: 20px;
+height: 20px;
+}
+
+.search button{
+    border: none;
+    background-color: #006ce4;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.serach-box svg {
+    width: 24px;
+    height: 24px;
+}
+.offers{
+    margin-top: 130px;
+    line-height: 2rem;
+}
+.offers-image{
+    position: relative;
+}
+.offers-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: absolute;
+    bottom: 20%;
+    left: 10px;
+    color: #FFFFFF;
+}
+.offers-text button{
+    border: none;
+    background-color: #006ce4;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: fit-content;
+}
+.offers-details button{
+    border: none;
+    background-color: #006ce4;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: fit-content;
+}
+.offers-details{
+    display: flex;
+    gap: 5px;
+    background-color: #fff;
+    border: 2px solid rgb(232, 231, 231);
+    border-radius: 7px;
+    width: 500px;
+    height: 150px;
+}
+.offer-details-text h2 {
+    font-size: 16px;
+}
+.offer-details-text p{
+    font-size: 13px;
+}
+.offer-details-text button{
+    font-size: 14px;
+}
+
+
+
+
+
